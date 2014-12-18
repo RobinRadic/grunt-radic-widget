@@ -1,0 +1,9 @@
+{
+  "generator-radic": {
+    "appname": "grunt-radic-widget",
+    "type": "node",
+    "generated": [
+      "project"
+    ]
+  }
+}
