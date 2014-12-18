@@ -1,12 +1,37 @@
 {
   "name": "grunt-radic-widget",
   "version": "0.0.1",
-  "description": "grunt-radic-widget created by Robin Radic",
+  "description": "Builds my widgets",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "files": [
+    "tasks",
+    "LICENSE-MIT",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://robinradic@github.com/robinradic/grunt-radic-widget"
+  },
+  "bugs": {
+    "url": "https://github.com/robinradic/grunt-radic-widget/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://radic.mit-license.org"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
   },
   "license": "MIT",
+  "dependencies": {
+    "async": "0.9.0",
+    "fs-extra": "0.12.0",
+    "lodash": "2.4.1",
+    "uglifyjs": "2.3.6",
+    "handlebars": "2.0.0"
+  },
   "author": {
     "name": "Robin Radic",
     "email": "robin@radic.nl"
